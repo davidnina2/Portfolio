@@ -5,6 +5,35 @@
 /*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
  2) font-family: 'Poppins', sans-serif;
  ----------------------------------------*****/
+/*
+Header sticky
+
+*/
+.header {
+    background: #555;
+    background:rgba(85,85,85, .5);
+    color: #f1f1f1;
+    z-index: 10;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 102px;
+}
+/* custom font */
+ @font-face {
+    font-family: ImportedFont1;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+  }
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
  @import url(animate.min.css);
  @import url(normalize.css);
@@ -21,6 +50,7 @@
  * {
      box-sizing: border-box !important;
 }
+
  html {
      scroll-behavior: smooth;
 }
@@ -353,7 +383,7 @@
      float: left;
 }
  nav.main-menu {
-     float: left;
+     float: right;
      margin-left: 0;
      margin-left: 0;
 }
@@ -851,16 +881,35 @@
      display: inline-block;
      position: relative;
 }
+.main-menu ul.menu-area-main {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center the menu items horizontally */
+    white-space: nowrap; /* Prevent menu items from wrapping to the next line */
+    overflow: hidden; /* Hide overflowing menu items */
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.main-menu ul.menu-area-main li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    min-width: 150px;
+}
+
+.main-menu ul.menu-area-main li a {
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    min-width: 150px;
+}
  .main-menu ul>li a {
-     padding: 11px 20px;
      text-align: center;
-     line-height: 20px;
-     font-size: 16px;
      display: block;
-     font-weight: 500;
-     color: #fff;
      text-transform: uppercase;
-     padding-left: 70px;
+     font-size: 15px;
+     padding: 11px 20px;
 }
  .main-menu ul li:last-child a {
      padding-right: 0;
@@ -1025,11 +1074,13 @@
     min-height: 980px;
     background-position: right top;
 }
- .header {
-     position: absolute;
-     z-index: 999;
-     width: 100%;
-     padding: 40px 40px 40px 40px;
+.header-top2 {
+    background: url(../images/UFLF/captureJeux1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    min-height: 980px;
+    background-position: right top;
 }
  .logo a {
      font-size: 40px;
@@ -1169,14 +1220,14 @@
      margin-right: 101px;
 }
  .box_bg_img {
-     margin-right: -84px;
-     box-shadow: #c3c3c3 0px 0px 29px 4px;
+     margin-left: 420px;
+     margin-top: 50px;
 }
  .box_bg_img figure {
     margin: 0;
 }
  .box_bg_img figure img {
-    width: 100%;
+    width: 80%;
 }
  .border_right {
     border-right: #f00 solid 6px;
@@ -1190,7 +1241,7 @@
      font-size: 17px;
      line-height: 30px;
      font-weight: 400;
-     text-align: right;
+     text-align: left;
      color: #181716;
 }
  .box_text a {
@@ -1200,7 +1251,6 @@
      color: #fff;
      padding: 10px 39px;
      display: inline-block;
-     margin-top: 11px;
 }
  .box_text a:hover {
      background-color: #ff0000;

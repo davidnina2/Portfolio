@@ -26,6 +26,7 @@
      .megamenu>.row [class*="col-"] {
          padding: 0px;
     }
+
      .menu-area-main .megamenu .men-cat {
          padding: 0px 15px;
     }
@@ -209,7 +210,7 @@
      .padding_left0 {
         padding-left: 15px;
     }
-     .menu-area-main li.active a {
+     .menu-area-main .active a {
         background: inherit;
     }
      .testimonial_box {
@@ -238,7 +239,7 @@
          padding-bottom: 25px;
          float: inherit;
     }
-     .menu-area-main li.active a {
+     .menu-area-main .active a {
         background: inherit;
     }
     .text-img {padding-top: 40px;}
