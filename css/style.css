@@ -1082,6 +1082,14 @@ Header sticky
     min-height: 980px;
     background-position: right top;
 }
+.header-top3 {
+    background: url(../images/Bambooza/Background.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    min-height: 980px;
+    background-position: right top;
+}
  .logo a {
      font-size: 40px;
      font-weight: bold;
