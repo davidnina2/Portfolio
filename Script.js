@@ -4,6 +4,7 @@ window.addEventListener('DOMContentLoaded', async () => {
     updateContent(langData);
 });
 window.addEventListener("load", async (event) => {
+    console.log("load")
     const userPreferredLanguage = localStorage.getItem('language') || 'en';
     const langData = await fetchLanguageData(userPreferredLanguage);
     updateContent(langData);
