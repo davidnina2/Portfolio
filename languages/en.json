@@ -9,6 +9,8 @@
 
     },
     "Home":{
-        "Presentation":"I am a recent computer science graduate passionate about video game development and gameplay. My academic background has provided me with a solid foundation in programming and software design, which I am eager to apply in the game industry to create exceptional gaming experiences."
+        "Presentation":"I am a recent computer science graduate passionate about video game development and gameplay. My academic background has provided me with a solid foundation in programming and software design, which I am eager to apply in the game industry to create exceptional gaming experiences.",
+        "MyGame": "My Games"
+    
     }
 }
