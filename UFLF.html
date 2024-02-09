@@ -30,8 +30,50 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
-<!-- body -->
+<script>
 
+
+    window.addEventListener('DOMContentLoaded', async () => {
+        console.log("init");
+        const userPreferredLanguage = localStorage.getItem('language') || 'en';
+        const langData = await fetchLanguageData(userPreferredLanguage);
+        updateContent(langData);
+        toggleArabicStylesheet(userPreferredLanguage);
+    });
+    function updateContent(langData) {
+        document.querySelectorAll('[data-i18n]').forEach(element => {
+            const key = element.getAttribute('data-i18n');
+            element.textContent = langData[key];
+        });
+    }
+    function fetchLanguageData(lang) {
+        // const response = await fetch(`languages/${lang}.json`);
+        let response;
+        if(lang == "fr"){
+            response = jQuery.getJSON("./languages/fr.json");
+        } else{
+            console.log("en");
+            response = jQuery.getJSON("./languages/en.json", function( data ) {
+                console.log(data);
+                console.log( "success" );
+            })
+            console.log("en2");
+        }
+        console.log(response);
+        console.log("response");
+        return response;
+    }
+    function changeLanguage(lang) {
+        setLanguagePreference(lang);
+        const langData = fetchLanguageData(lang);
+        updateContent(langData);
+    }
+    function setLanguagePreference(lang) {
+        localStorage.setItem('language', lang);
+        location.reload();
+    }
+</script>
+<!-- body -->
 <body class="main-layout">
     <!-- loader  -->
     <div class="loader_bg">
@@ -52,12 +94,12 @@
                                         <a href="./index.html#"><h1 style="display: inline-block;color: white;font-size: 48pt;font-family: ImportedFont1;margin-right:10px;"><u>Portfolio</u></h1></a>
                                         <nav class="main-menu">
                                             <ul class="menu-area-main">
-                                                <li> <a href="./index.html#">Acceuil</a> </li>
-                                                <li> <a href="./index.html#games">Jeux</a> </li>
+                                                <li> <a href="./index.html#" data-i18n="Header.Home"></a> </li>
+                                                <li> <a href="./index.html#games" data-i18n="Header.Game"></a> </li>
                                                 <li> <a href="./index.html#about">À propos</a> </li>
                                                 <li> <a href="./UFLF.html">UFLF</a> </li>
                                                 <li> <a href="./Bambooza.html">Bambooza</a> </li>
-                                                <li> <a href="./en/index.html">English</a> </li>
+                                                <li> <a onclick="changeLanguage('en')" data-i18n="Header.Language"></a> </li>
                                             </ul>
                                         </nav>
                                     </div>
