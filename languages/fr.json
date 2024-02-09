@@ -2,6 +2,9 @@
     "Header":{
         "Home":"Acceuil",
         "Game":"Jeux",
+        "About":"À Propos",
+        "UFLF":"UFLF",
+        "Bambooza":"Bambooza",
         "Language":"Anglais"
 
     }
