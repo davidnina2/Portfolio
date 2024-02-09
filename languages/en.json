@@ -12,5 +12,12 @@
         "Presentation":"I am a recent computer science graduate passionate about video game development and gameplay. My academic background has provided me with a solid foundation in programming and software design, which I am eager to apply in the game industry to create exceptional gaming experiences.",
         "MyGame": "My Games"
     
-    }
+    },
+    "games":{
+        "UFLF":{
+            "CompleteTitle":"Unity Makes Strength",
+            "SmallDescription": "Unity Makes Strength (UFLF) is a game developed during my workshop course, where the goal was to create a game that focuses on diversity. In this game, the objective is to build a forge with enough diversity to produce efficiently and win the game..."
+        }
+    },
+    "SeeMore": "See More"
 }

@@ -11,6 +11,13 @@
     "Home":{
         "Presentation":"Je suis un étudiant récemment diplômé en informatique passionné par le développement de jeux vidéo et le gameplay. Mon parcours académique m'a fourni une solide base en programmation et en conception de logiciels, que je suis désireux d'appliquer dans l'industrie du jeu pour créer des expériences de jeu exceptionnelles.",
         "MyGame": "Mes jeux"
-    }
+    },
+    "games":{
+        "UFLF":{
+            "CompleteTitle":"L'union fait la forge",
+            "SmallDescription": "L'union fait la forge ou UFLF est un jeux qui a été fait pendant mon cours d'atelier ou il fallait dévelloper un jeux sur les différence et donc on a concu un jeu ou le but est de faire une forge avec asser de diversité pour pouvoir avoir asser de production pour gagner..."
+        }
+    },
+    "SeeMore": "En Savoir plus"
     
 }
