@@ -41,7 +41,9 @@
     });
     function updateContent(langData) {
         document.querySelectorAll('[data-i18n]').forEach(element => {
+            console.log("foreach");
             const key = element.getAttribute('data-i18n');
+            console.log(langData[key]);
             element.textContent = langData[key];
         });
     }
