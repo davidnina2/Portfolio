@@ -111,10 +111,10 @@
                 <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
 
                     <div class="Games">
-                        <h3>Bambooza</h3>
-                        <p>Bambooza se présente comme une formation interactive dédiée aux individus de 16 ans et plus, travailleurs ou en recherche d'emploi, qui vivent avec des difficultés professionnelles liées au TDAH. 
+                        <h3 data-i18n="Games.Bambooza.CompleteTitle"></h3>
+                        <p   data-i18n="Games.Bambooza.SmallDescription"> 
                         </p>
-                        <a href="./Bambooza.html">En Savoir plus</a>
+                        <a href="./Bambooza.html" data-i18n="SeeMore"></a>
                     </div>
                 </div>
             </div>
@@ -130,7 +130,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="titlepage">
-                <h2>À propos</h2>
+                <h2 data-i18n="About"></h2>
             </div>
         </div>
     </div>
@@ -144,10 +144,7 @@
         </div>
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 border_right">
             <div class="box_text">
-                <p><span>Je suis un étudiant récemment diplômé en informatique passionné par le développement de 
-                                jeux vidéo et le gameplay. Mon parcours académique m'a fourni une solide base en programmation 
-                                et en conception de logiciels, que je suis désireux d'appliquer dans l'industrie du jeu pour créer 
-                                des expériences de jeu exceptionnelles.</span></p>
+                <p><span data-i18n="AboutMeText"></span></p>
             </div>
         </div> 
     </div>
@@ -156,58 +153,8 @@
     <!-- end We are -->
 
 
-    <!--  footer -->
-    <footr>
-        <div class="footer ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
-                        <div class="row">
-                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 ">
-                                <div class="address">
-                                    <ul class="social_link">
-                                        <li><a href="https://github.com/davidnina2"><img src="icon/githubicon.png"></a></li>
-                                        <li><a href="https://www.linkedin.com/in/david-laprise-23b1b1277"><img src="icon/lin(2).png"></a></li>
-                                    </ul>
-                                    <h1 style="color: white;">David Laprise</h1>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="address">
-                                    <h3>Liens rapide</h3>
-                                    <ul class="Menu_footer">
-                                        <li><img src="images/3.png" alt="#"> <a href="./index.html#">Acceuil</a> </li>
-                                        <li><img src="images/3.png" alt="#"> <a href="./index.html#games">Jeux</a> </li>
-                                        <li><img src="images/3.png" alt="#"> <a href="./index.html#about">À propos</a> </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 col-sm-6 ">
-                                <div class="address">
-                                    <h3>Contact</h3>
-                                    <ul class="loca">
-                                        <li>
-                                            <a href="#"><img src="icon/loc.png" alt="#" /></a>Chicoutimi QC, Saguenay</li>
-                                        <li>
-                                            <a href="#"><img src="icon/email.png" alt="#" /></a>LapriseDavid@hotmail.com </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-            <div class="copyright">
-                <div class="container">
-                    <p>© 2019 All Rights Reserved. <a href="https://html.design/">Free html Templates</a></p>
-                </div>
-            </div>
-        </div>
-    </footr>
-    <!-- end footer -->
+    <include src="Footer.html"></include>
+    
     <!-- Javascript files-->
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -222,19 +169,5 @@
 </body>
 
 </html>
-<script>
-    //pour le sticky header
-    window.onscroll = function() {myFunction()};
 
-    var header = document.getElementById("myHeader");
-    var sticky = header.offsetTop;
-
-    function myFunction() {
-    if (window.pageYOffset > sticky) {
-        header.classList.add("sticky");
-    } else {
-        header.classList.remove("sticky");
-    }
-    }
-</script>
            

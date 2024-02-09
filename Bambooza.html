@@ -55,8 +55,8 @@
                         <div class="row">
                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
                                 <div class="text-bg">
-                                    <h1><u>Bambooza</u></h1>
-                                    <span>Bambooza se présente comme une formation interactive dédiée aux individus de 16 ans et plus, travailleurs ou en recherche d'emploi, qui vivent avec des difficultés professionnelles liées au TDAH. 
+                                    <h1><u data-i18n="Games.Bambooza.CompleteTitle"></u></h1>
+                                    <span data-i18n="Games.Bambooza.CompleteDescription"> 
                                     </span>
                                 </div>
                             </div>
@@ -72,17 +72,17 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="titlepage">
-                        <h2>Objectif du jeux</h2>
+                        <h2 data-i18n="Games.ObjectivesOfTheGame"></h2>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 margin_bottom">
                     <div class="row">
-                        <h3>Les objectifs du jeu étaient principalement éducatifs, mais voici certains objectifs et éléments que nous souhaitions que notre jeu possède :</h3>
+                        <h3 data-i18n="Games.Bambooza.ObjectiveSubTitle"></h3>
                         <ul>
-                            <li>- Éduquer les jeunes au TDAH</li>
-                            <li>- Soit le fun</li>
+                            <li data-i18n="Games.Bambooza.FirstGoal"></li>
+                            <li data-i18n="Games.Bambooza.SecondGoal"></li>
                         </ul>  
                     </div>
                 </div>
@@ -95,17 +95,14 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="titlepage">
-                        <h2>Mes Contributions</h2>
+                        <h2 data-i18n="Games.MyContribution"></h2>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 margin_bottom">
                     <div class="row">
-                        <h3> J'ai créer les jeux (mondes) de la bibliothèque qui est un jeu de carte de mémoire,
-                             du volcan qui est un jeu de conaissance et de recherche et le jeu de la jungle qui 
-                             lui est un jeu de planification de temp. 
-                        </h3>
+                        <h3 data-i18n="Games.Bambooza.MyContributionText"> </h3>
                     </div>
                 </div>
             </div>
@@ -116,7 +113,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="titlepage">
-                        <h2>Images</h2>
+                        <h2 data-i18n="Games.Screenshots"></h2>
                     </div>
                 </div>
             </div>
@@ -140,64 +137,15 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="titlepage">
-                        <a href="https://www.bambooza.ca/"><h2>Liens vien le site du jeu</h2></a>
+                        <a href="https://www.bambooza.ca/"><u><h2 data-i18n="LinkToWebsite"></h2></u></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--  footer -->
-    <footr>
-        <div class="footer ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
-                        <div class="row">
-                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 ">
-                                <div class="address">
-                                    <ul class="social_link">
-                                        <li><a href="https://github.com/davidnina2"><img src="icon/githubicon.png"></a></li>
-                                        <li><a href="https://www.linkedin.com/in/david-laprise-23b1b1277"><img src="icon/lin(2).png"></a></li>
-                                    </ul>
-                                    <h1 style="color: white;">David Laprise</h1>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
-                                <div class="address">
-                                    <h3>Liens rapide</h3>
-                                    <ul class="Menu_footer">
-                                        <li><img src="images/3.png" alt="#"> <a href="./index.html#">Acceuil</a> </li>
-                                        <li><img src="images/3.png" alt="#"> <a href="./index.html#games">Jeux</a> </li>
-                                        <li><img src="images/3.png" alt="#"> <a href="./index.html#about">À propos</a> </li>
-                                    </ul>
-                                </div>
-                            </div>
+   
+    <include src="Footer.html"></include>
 
-                            <div class="col-lg-3 col-md-6 col-sm-6 ">
-                                <div class="address">
-                                    <h3>Contact</h3>
-                                    <ul class="loca">
-                                        <li>
-                                            <a href="#"><img src="icon/loc.png" alt="#" /></a>Chicoutimi QC, Saguenay</li>
-                                        <li>
-                                            <a href="#"><img src="icon/email.png" alt="#" /></a>LapriseDavid@hotmail.com </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-            <div class="copyright">
-                <div class="container">
-                    <p>© 2019 All Rights Reserved. <a href="https://html.design/">Free html Templates</a></p>
-                </div>
-            </div>
-        </div>
-    </footr>
-    <!-- end footer -->
     <!-- Javascript files-->
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -232,23 +180,3 @@
         text-align: center;
     }
 </style>
-<script>
-    // pour le zoom des images
-    function zoomImage(position) {
-      const image = document.getElementsByClassName('zoomedImage')[position];
-        image.classList.toggle('zoomed');
-    }
-    //pour le sticky header
-    window.onscroll = function() {myFunction()};
-
-    var header = document.getElementById("myHeader");
-    var sticky = header.offsetTop;
-
-    function myFunction() {
-    if (window.pageYOffset > sticky) {
-        header.classList.add("sticky");
-    } else {
-        header.classList.remove("sticky");
-    }
-    }
-</script>

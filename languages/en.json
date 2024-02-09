@@ -18,7 +18,29 @@
             "CompleteTitle":"Unity Makes Strength",
             "SmallDescription": "Unity Makes Strength (UFLF) is a game developed during my workshop course, where the goal was to create a game that focuses on diversity. In this game, the objective is to build a forge with enough diversity to produce efficiently and win the game...",
             "CompleteDescription":"This game aims to show players that diversity is important and sometimes necessary. In this 1v1 match, players must recruit employees and use utility cards to gain an advantage over their opponent. To promote diversity, there are three available races: Goblins, Amphibians, and Ogres. Each race has its own expertise, so it's essential to create a good mix, otherwise our forge won't secure any contracts, leading to our defeat."
-        }
+        },
+        "Bambooza":{
+            "CompleteTitle":"Bambooza",
+            "SmallDescription": "Bambooza is an interactive training program designed for individuals aged 16 and older, either working or seeking employment, who experience professional difficulties related to ADHD...",
+            "CompleteDescription":"Bambooza presents itself as an interactive training program dedicated to individuals aged 16 and older, who are either working or seeking employment, and who experience professional difficulties related to ADHD.",
+            "ObjectiveSubTitle":"The game's objectives were primarily educational, but here are some objectives and elements that we wanted our game to have:",
+            "FirstGoal":"- Educate young people about ADHD",
+            "SecondGoal":"- Be fun to play",
+            "MyContributionText":"I created the games (worlds) in the library, which is a memory card game, the volcano, which is a knowledge and research game, and the jungle game, which is a time planning game."
+        
+        },
+        "ObjectivesOfTheGame":"Goal of the game",
+        "MyContribution":"My Contribution",
+        "Screenshots":"Screenshots"
     },
-    "SeeMore": "See More"
+    "About":"About me",
+    "AboutMeText":"I am a recent computer science graduate passionate about video game development and gameplay. My academic background has provided me with a solid foundation in programming and software design, which I am eager to apply in the game industry to create exceptional gaming experiences.",
+    "SeeMore": "See More",
+    "Footer":{
+        "QuickLink":"QUICK LINKS",
+        "Home": "Home",
+        "Games": "Games",
+        "About": "About me"
+    },
+    "LinkToWebsite":"Visit the Game Site"
 }
