@@ -1,21 +1,3 @@
-
-let fr = {
-    "Header":{
-        "Home":"Acceuil",
-        "Game":"Jeux",
-        "Language":"Anglais"
-
-    }
-}
-let en = {
-    "Header":{
-        "Home":"Home",
-        "Game":"Games",
-        "Language":"French"
-
-    }
-}
-
 window.addEventListener('DOMContentLoaded', async () => {
     const userPreferredLanguage = localStorage.getItem('language') || 'en';
     const langData = await fetchLanguageData(userPreferredLanguage);
@@ -36,11 +18,9 @@ function updateContent(langData) {
 function fetchLanguageData(lang) {
     let response;
     if(lang == "fr"){
-        //response = jQuery.getJSON("./languages/fr.json");
-        response = fr;
+        response = jQuery.getJSON("./languages/fr.json");
     } else{
-        //response = jQuery.getJSON("./languages/en.json");
-        response = en;
+        response = jQuery.getJSON("./languages/en.json");
     }
     return response;
 }
