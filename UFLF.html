@@ -34,7 +34,6 @@
 
 
     window.addEventListener('DOMContentLoaded', async () => {
-        console.log("init");
         const userPreferredLanguage = localStorage.getItem('language') || 'en';
         const langData = await fetchLanguageData(userPreferredLanguage);
         updateContent(langData);
@@ -47,21 +46,15 @@
         });
     }
     function fetchLanguageData(lang) {
-        // const response = await fetch(`languages/${lang}.json`);
         let response;
         if(lang == "fr"){
             response = jQuery.getJSON("./languages/fr.json");
         } else{
-            console.log("en");
-            response = jQuery.getJSON("./languages/en.json", function( data ) {
-                console.log(data);
-                console.log( "success" );
-            })
-            console.log("en2");
+            response = jQuery.getJSON("./languages/en.json");
         }
         console.log(response);
         console.log("response");
-        return response;
+        return JSON.stringify(response);
     }
     function changeLanguage(lang) {
         setLanguagePreference(lang);
