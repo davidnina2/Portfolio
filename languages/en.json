@@ -17,7 +17,19 @@
         "UFLF":{
             "CompleteTitle":"Unity Makes Strength",
             "SmallDescription": "Unity Makes Strength (UFLF) is a game developed during my workshop course, where the goal was to create a game that focuses on diversity. In this game, the objective is to build a forge with enough diversity to produce efficiently and win the game...",
-            "CompleteDescription":"This game aims to show players that diversity is important and sometimes necessary. In this 1v1 match, players must recruit employees and use utility cards to gain an advantage over their opponent. To promote diversity, there are three available races: Goblins, Amphibians, and Ogres. Each race has its own expertise, so it's essential to create a good mix, otherwise our forge won't secure any contracts, leading to our defeat."
+            "CompleteDescription":"This game aims to show players that diversity is important and sometimes necessary. In this 1v1 match, players must recruit employees and use utility cards to gain an advantage over their opponent. To promote diversity, there are three available races: Goblins, Amphibians, and Ogres. Each race has its own expertise, so it's essential to create a good mix, otherwise our forge won't secure any contracts, leading to our defeat.",
+            
+            "ObjectiveSubTitle":"The game's objectives were primarily educational, but here are some objectives and elements we wanted our game to have:",
+            "FirstGoal":"- A 1v1 multiplayer mode",
+            "SecondGoal":"- A fully playable loop",
+            "ThirdGoal":"- Interesting animations and models to watch",
+            "FourthGoal":"- Easy and quick to pick up",
+            "MyContributionTextpP1":"I made significant contributions to the project because there were only two programmers, and since the second programmer was mainly responsible for multiplayer, I was in charge of creating all the backend, the entire user interface, and several other gameplay elements. Here are some examples of what I achieved for the project:",
+            "MyContributionTextpP2":"UI Interaction",
+            "MyContributionTextpP3":"I implemented the interaction between the user interface (UI) and the backend code, and I also created the majority of the visual elements of the UI and cards. So when the player hovers over the cards, they slightly enlarge and display more details for better readability of the card's effects, as shown below:",
+            "MyContributionTextpP4":"Game Backend Functionality",
+            "MyContributionTextpP5":"Since I was one of the few programmers, I handled the majority of the backend code, which means I took care of all the elements for managing each phase of the game and processing the associated data. This allowed me to learn how to create optimized and easily readable code. For this game, I primarily used Unreal Engine's DataTables to import all the information about the available cards used in the game. Additionally, I also made use of Timeline components to handle visual interactions. This game also helped me better understand the various Unreal classes, such as Player Controller, Player State, GameMode, etc., in the context of a multiplayer game."
+                
         },
         "Bambooza":{
             "CompleteTitle":"Bambooza",

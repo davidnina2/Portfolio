@@ -16,7 +16,18 @@
         "UFLF":{
             "CompleteTitle":"L'union fait la forge",
             "SmallDescription": "L'union fait la forge ou UFLF est un jeux qui a été fait pendant mon cours d'atelier ou il fallait dévelloper un jeux sur les différence et donc on a concu un jeu ou le but est de faire une forge avec asser de diversité pour pouvoir avoir asser de production pour gagner...",
-            "CompleteDescription":"Ce jeu a pour but de montrer aux joueurs que la diversité est importante et parfois nécessaire. Pour ce faire, les joueurs s'affrontent dans un match en 1v1 où ils doivent recruter des employés et utiliser des cartes utilitaires pour obtenir l'avantage sur leur adversaire. Pour encourager la diversité, il y a trois races disponibles : les Gobelins, les Amphibiens et les Ogres. Chaque race a ses propres types d'expertise, donc il est essentiel de faire un bon mélange, sinon notre forge ne décrochera aucun contrat, ce qui entraînera notre défaite."
+            "CompleteDescription":"Ce jeu a pour but de montrer aux joueurs que la diversité est importante et parfois nécessaire. Pour ce faire, les joueurs s'affrontent dans un match en 1v1 où ils doivent recruter des employés et utiliser des cartes utilitaires pour obtenir l'avantage sur leur adversaire. Pour encourager la diversité, il y a trois races disponibles : les Gobelins, les Amphibiens et les Ogres. Chaque race a ses propres types d'expertise, donc il est essentiel de faire un bon mélange, sinon notre forge ne décrochera aucun contrat, ce qui entraînera notre défaite.",
+            
+            "ObjectiveSubTitle":"Les objectifs du jeu étaient principalement éducatifs, mais voici certains objectifs et éléments que nous souhaitions que notre jeu possède :",
+            "FirstGoal":"- Un mode multijoueur 1v1",
+            "SecondGoal":"- Une boucle 100% jouable",
+            "ThirdGoal":"- Des animations et des modèles interessant à regarder",
+            "FourthGoal":"- Qu'il soit facile et rapide à prendre en main",
+            "MyContributionTextpP1":"J'ai fortement contribué au projet, car nous n'étions que deux programmeurs, et étant donné que le deuxième programmeur était principalement chargé du multijoueur, j'ai été responsable de la création de tout le backend, de l'ensemble de l'interface, ainsi que de plusieurs autres éléments de gameplay. Voici quelques exemples de ce que j'ai réalisé pour le projet :",
+            "MyContributionTextpP2":"L'intéraction avec le UI",
+            "MyContributionTextpP3":"J'ai implémenté l'interaction entre l'interface utilisateur (UI) et le code backend, et j'ai également réalisé la majorité des éléments visuels de l'UI ainsi que des cartes. Ainsi, lorsque le joueur survole les cartes, elles s'agrandissent légèrement et affichent davantage de détails pour permettre une meilleure lisibilité des effets de la carte, comme illustré ci-dessous :",
+            "MyContributionTextpP4":"Le fonctionnement backend du jeux",
+            "MyContributionTextpP5":"Puisque j'étais l'un des seuls programmeurs, j'ai réalisé la grande majorité du code backend, ce qui signifie que j'ai pris en charge tous les éléments pour la gestion de chaque phase du jeu et le traitement des données qui y sont liées. Cela m'a permis d'apprendre à créer un code optimisé et facile à lire. Pour ce jeu, j'ai principalement utilisé les DataTable d'Unreal Engine pour importer toutes les informations concernant les cartes disponibles que nous utilisons dans le jeu. De plus, j'ai également fait usage des composants Timeline pour gérer les interactions visuelles. Ce jeu m'a aussi aidé à mieux comprendre les différentes classes d'Unreal, telles que le Player Controller, le Player State, le GameMode, etc., dans le contexte d'un jeu multijoueur."      
         },
         "Bambooza":{
             "CompleteTitle":"Bambooza",
