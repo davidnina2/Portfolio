@@ -9,8 +9,9 @@ function updateContent(langData) {
         const chars = key.split('.');
         let jsonCurrent = langData;
         console.log(langData)
-        jsonCurrent = jsonCurrent[chars[0]];
-        for(let i = 1;i<chars.length;i++){
+        console.log(key)
+        console.log(chars)
+        for(let i = 0;i<chars.length;i++){
             jsonCurrent = jsonCurrent[chars[i]];
             console.log(jsonCurrent)
         }
