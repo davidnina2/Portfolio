@@ -13,10 +13,11 @@
         "MyGame": "My Games"
     
     },
-    "games":{
+    "Games":{
         "UFLF":{
             "CompleteTitle":"Unity Makes Strength",
-            "SmallDescription": "Unity Makes Strength (UFLF) is a game developed during my workshop course, where the goal was to create a game that focuses on diversity. In this game, the objective is to build a forge with enough diversity to produce efficiently and win the game..."
+            "SmallDescription": "Unity Makes Strength (UFLF) is a game developed during my workshop course, where the goal was to create a game that focuses on diversity. In this game, the objective is to build a forge with enough diversity to produce efficiently and win the game...",
+            "CompleteDescription":"This game aims to show players that diversity is important and sometimes necessary. In this 1v1 match, players must recruit employees and use utility cards to gain an advantage over their opponent. To promote diversity, there are three available races: Goblins, Amphibians, and Ogres. Each race has its own expertise, so it's essential to create a good mix, otherwise our forge won't secure any contracts, leading to our defeat."
         }
     },
     "SeeMore": "See More"

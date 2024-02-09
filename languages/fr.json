@@ -12,10 +12,11 @@
         "Presentation":"Je suis un étudiant récemment diplômé en informatique passionné par le développement de jeux vidéo et le gameplay. Mon parcours académique m'a fourni une solide base en programmation et en conception de logiciels, que je suis désireux d'appliquer dans l'industrie du jeu pour créer des expériences de jeu exceptionnelles.",
         "MyGame": "Mes jeux"
     },
-    "games":{
+    "Games":{
         "UFLF":{
             "CompleteTitle":"L'union fait la forge",
-            "SmallDescription": "L'union fait la forge ou UFLF est un jeux qui a été fait pendant mon cours d'atelier ou il fallait dévelloper un jeux sur les différence et donc on a concu un jeu ou le but est de faire une forge avec asser de diversité pour pouvoir avoir asser de production pour gagner..."
+            "SmallDescription": "L'union fait la forge ou UFLF est un jeux qui a été fait pendant mon cours d'atelier ou il fallait dévelloper un jeux sur les différence et donc on a concu un jeu ou le but est de faire une forge avec asser de diversité pour pouvoir avoir asser de production pour gagner...",
+            "CompleteDescription":"Ce jeu a pour but de montrer aux joueurs que la diversité est importante et parfois nécessaire. Pour ce faire, les joueurs s'affrontent dans un match en 1v1 où ils doivent recruter des employés et utiliser des cartes utilitaires pour obtenir l'avantage sur leur adversaire. Pour encourager la diversité, il y a trois races disponibles : les Gobelins, les Amphibiens et les Ogres. Chaque race a ses propres types d'expertise, donc il est essentiel de faire un bon mélange, sinon notre forge ne décrochera aucun contrat, ce qui entraînera notre défaite."
         }
     },
     "SeeMore": "En Savoir plus"
